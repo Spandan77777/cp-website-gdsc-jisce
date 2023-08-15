@@ -1,0 +1,383 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #444;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Content Styles */
+section {
+    padding: 2rem;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        position: relative;
+        bottom: auto;
+    }
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+
+/* Timeline Styles */
+#timeline {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.timeline-list {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.timeline-content {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.timeline-date {
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    width: 80px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .timeline-date {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: auto;
+        transform: none;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/* Algorithm Page Styles */
+#algorithm {
+    text-align: center;
+    padding: 2rem;
+}
+
+#algorithm h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#algorithm h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#algorithm p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#algorithm ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#algorithm ul li {
+    margin-bottom: 0.5rem;
+}
+
+#algorithm ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#algorithm ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #algorithm {
+        padding: 1rem;
+    }
+}
+
+
+/* Data Structures Page Styles */
+#data-structures {
+    text-align: center;
+    padding: 2rem;
+}
+
+#data-structures h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#data-structures h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#data-structures p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#data-structures ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#data-structures ul li {
+    margin-bottom: 0.5rem;
+}
+
+#data-structures ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#data-structures ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #data-structures {
+        padding: 1rem;
+    }
+}
+
+
+/* Compete Page Styles */
+#compete {
+    text-align: center;
+    padding: 2rem;
+}
+
+#compete h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#compete h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#compete p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#compete ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#compete ul li {
+    margin-bottom: 0.5rem;
+}
+
+#compete ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#compete ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Category Headings */
+#compete h3::before {
+    content: "▶";
+    margin-right: 0.5rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #compete {
+        padding: 1rem;
+    }
+}
+
+
+/* Practice Page Styles */
+#practice {
+    text-align: center;
+    padding: 2rem;
+}
+
+#practice h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#practice h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#practice p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#practice ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#practice ul li {
+    margin-bottom: 0.5rem;
+}
+
+#practice ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#practice ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Category Headings */
+#practice h3::before {
+    content: "▶";
+    margin-right: 0.5rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #practice {
+        padding: 1rem;
+    }
+}
+
+
+/* Resources Page Styles */
+#resources {
+    text-align: center;
+    padding: 2rem;
+}
+
+#resources h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#resources p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+#resources ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+#resources ul li {
+    margin-bottom: 0.5rem;
+}
+
+#resources ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#resources ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    #resources {
+        padding: 1rem;
+    }
+}
